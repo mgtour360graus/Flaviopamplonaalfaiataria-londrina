@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Virtual - Flávio Pamplona Alfaiataria</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Lato', sans-serif;
+            background-color: #000000;
+            color: #FFFFFF;
+        }
+        .top-bar {
+            background-color: #000000;
+            padding: 10px 0;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        .top-bar img {
+            height: 40px;
+        }
+        .start-button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            color: #D4AF37;
+            cursor: pointer;
+        }
+        .nav-buttons {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+        .nav-buttons button {
+            background-color: transparent;
+            border: none;
+            color: #FFFFFF;
+            margin: 5px 0;
+            cursor: pointer;
+        }
+        .nav-buttons button:hover {
+            color: #D4AF37;
+        }
+    </style>
+</head>
+<body>
+
+<div class="top-bar">
+    <img src="https://flaviopamplona.com.br/wp-content/uploads/2020/07/flavio-pamplona-logo.png" alt="Flávio Pamplona Alfaiataria">
+</div>
+
+<div class="start-button">
+    <span>Iniciar Tour</span>
+</div>
+
+<div class="nav-buttons">
+    <button>&#9664; Anterior</button>
+    <button>&#9654; Próximo</button>
+    <button>ℹ️ Info</button>
+    <button>📍 Mapa</button>
+    <button>⛶ Fullscreen</button>
+</div>
+
+</body>
+</html>
